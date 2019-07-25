@@ -136,6 +136,10 @@ public class DemoRegister {
 	   //Image loading
 	   @FindBy(xpath = "//input[contains(@type,'file')]")
 	   WebElement chooseFile;
+	   /*
+	   @FindBy(className = "ui-autocomplete-multiselect ui-state-default ui-widget")
+	   WebElement language;
+	   */
 	  
 	   public WebElement title() {
 			return title;

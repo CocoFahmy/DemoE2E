@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\hp\AppData\Local\Temp\testng-eclipse-1616553901\testng-customsuite.xml</span>
+                    <span>C:\Users\hp\AppData\Local\Temp\testng-eclipse-1865833641\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -101,7 +101,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="DemoAuto.DemoRegisterTest" hash-for-method="DemoRegister">DemoRegister</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="DemoAuto.DemoSwitchToTest" hash-for-method="Frames">Frames</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -119,20 +119,20 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">DemoAuto.DemoRegisterTest</span>
+              <span class="class-name">DemoAuto.DemoSwitchToTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="DemoRegister">
-                  </a> <!-- DemoRegister -->
-                  <span class="method-name">DemoRegister</span>
-                  <div class="stack-trace">java.lang.AssertionError: The copy right contains test
-Expected: a string containing &quot;@ 2016 Automation Testing All Rights Reserved&quot;
-     but: was &quot;&quot;@ 2016&quot;Automation Testing&quot;All Rights Reserved.&quot;&quot;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at org.junit.Assert.assertThat(Assert.java:956)
-	at DemoAuto.DemoRegisterTest.DemoRegister(DemoRegisterTest.java:47)
+                  <a name="Frames">
+                  </a> <!-- Frames -->
+                  <span class="method-name">Frames</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id Multiple
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-ICEMFP0&apos;, ip: &apos;192.168.178.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:997)
+	at DemoAuto.DemoSwitchToTest.Frames(DemoSwitchToTest.java:176)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -166,7 +166,7 @@ Expected: a string containing &quot;@ 2016 Automation Testing All Rights Reserve
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\hp\AppData\Local\Temp\testng-eclipse-1616553901\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\hp\AppData\Local\Temp\testng-eclipse-1865833641\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -175,7 +175,7 @@ Expected: a string containing &quot;@ 2016 Automation Testing All Rights Reserve
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;DemoAuto.DemoRegisterTest&quot;/&gt;
+      &lt;class name=&quot;DemoAuto.DemoSwitchToTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -217,14 +217,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'DemoRegister')
-data.setCell(0, 2, 'DemoAuto.DemoRegisterTest')
-data.setCell(0, 3, 8439);
+data.setCell(0, 1, 'Frames')
+data.setCell(0, 2, 'DemoAuto.DemoSwitchToTest')
+data.setCell(0, 3, 60412);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -250,7 +250,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">DemoAuto.DemoRegisterTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">DemoAuto.DemoSwitchToTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialization</span>
                 <span class="method-start">0 ms</span>
@@ -258,8 +258,8 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">DemoRegister</span>
-                <span class="method-start">7213 ms</span>
+                <span class="method-name">Frames</span>
+                <span class="method-start">20558 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
